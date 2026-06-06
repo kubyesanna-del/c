@@ -28,5 +28,6 @@ export interface Product {
   imageUrl: string;
   price: number;
   category?: string;
+  unit?: string; // e.g. "15kg", "500ml", "1L"
 }
 
